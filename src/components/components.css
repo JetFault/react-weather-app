@@ -1,0 +1,40 @@
+.FAB, .disabledButton {
+  height: 80px;
+  width: 80px;
+}
+
+.FAB {
+  position: fixed;
+  right: 65px;
+  bottom: 55px;
+
+  background-color: #19a69a !important;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.disabledButton {
+  background-color: #536e7b !important;
+  box-shadow: none !important;
+  color: #77909d;
+}
+.disabledButton span.material-icons {
+  color: #77909d;
+}
+
+.FAB span.material-icons,
+.disabledButton span.material-icons {
+  font-size: 50px;
+}
+
+.deleteButton {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 40px !important;
+  width: 40px !important;
+  background-color: #f7412d !important;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.deleteButton span.material-icons {
+  line-height: 1.6 !important;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "react-weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "JetFault/create-react-app"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "immutability-helper": "^2.0.0",
+    "normalize.css": "^4.2.0",
+    "react": "^15.3.1",
+    "react-addons-css-transition-group": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-geosuggest": "^1.25.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-redux": "^4.0.5",
+    "react-skycons": "^0.3.0",
+    "react-toolbox": "^1.2.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}

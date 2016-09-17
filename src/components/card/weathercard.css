@@ -1,0 +1,96 @@
+.weathercard {
+  position: relative;
+  height: 403px;
+  width: 380px;
+  margin: 15px;
+
+  border-radius: 4px;
+  background-color: #5f7d8c;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.5);
+  overflow: visible;
+}
+/* TODO: Figure out how to overwrite ReactToolbox's theme classes */
+.weathercard-Location {
+  padding: 20px;
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.6px;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.weathercard-Image {
+  width: 108px;
+  height: 108px;
+  margin: 50px auto 0 auto;
+}
+
+.weathercard-Temp {
+  margin-top: 10px;
+
+  font-size: 56px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.weathercard-Bottom {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+
+  text-align:center;
+  background-color: rgba(22, 31, 36, 0.1);
+  font-size: 24px;
+}
+
+.weathercard-Bottom > span {
+  margin: 0 10px;
+}
+.weathercard-Bottom > span > span.tempLabel {
+  font-size: 18px;
+}
+
+.weathercard-Placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border: 2px dashed #77909d;
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+  color: #5f7d8c;
+}
+
+.weathercard-Placeholder p {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  color: #5f7d8c;
+}
+
+
+/* Hide deletebutton unless active class is on
+ */
+.weathercard .deleteButton {
+  display: none;
+}
+.editActive .weathercard .deleteButton {
+  display: block;
+}

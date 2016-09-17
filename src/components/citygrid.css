@@ -1,0 +1,32 @@
+.cityList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Flexbox space-between forces the last cell
+ * in the row to align right.
+ * Make a fake cell same width as our grid cell after the last one.
+ * causing the last one to be spaced properly.
+ */
+.cityList:after {
+  content: "";
+  width: 403px;
+}
+
+.noCities {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1;
+  color: #7dcbc4;
+
+  /* Center the snowman to viewport
+   * Account for navbar - less var
+   */
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

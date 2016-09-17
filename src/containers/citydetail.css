@@ -1,0 +1,61 @@
+.forecastTopWrapper {
+  height: 380px;
+  padding: 50px;
+}
+
+.todayForecast {
+  width: 400px;
+  float: left;
+}
+
+.todayForeLeft {
+  width: 160px;
+  height: 160px;
+  float:left;
+}
+.todayForeRight {
+  float:right;
+}
+
+.todayForeRight h3 {
+  font-size: 63px;
+  font-weight: 300;
+}
+
+.tempHiLow > span {
+  margin: 0 5px;
+}
+
+.todayForecast .tempHiLow {
+  font-size: 20px;
+}
+.todayForecast .tempHiLow > span {
+  margin: 0 5px;
+}
+
+
+.forecastlist {
+  width: 600px;
+  float: right;
+}
+
+.forecastlist > li {
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
+  border-left: 1px solid #828282;
+  border-bottom: 1px solid #828282;
+  width: 140px;
+}
+.forecastlist  h4 {
+  margin-top: 0px;
+}
+
+.forecastlist .weatherIcon {
+  width: 90px;
+  height: 90px;
+}
+
+.forecastlist .tempHiLow {
+  margin-top: 10px;
+}

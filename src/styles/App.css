@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('../static/fonts/Proxima_Nova/ProximaNova-Regular.otf') format('opentype');
+  font-weight: 400; /*normal*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('../static/fonts/Proxima_Nova/ProximaNova-Bold.otf') format('opentype');
+  font-weight: 700; /*bold*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('../static/fonts/Proxima_Nova/ProximaNova-Semibold.otf') format('opentype');
+  font-weight: 600; /*semibold*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('../static/fonts/Proxima_Nova/ProximaNova-Light.otf') format('opentype');
+  font-weight: 200; /*light*/
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Proxima-Nova', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #36474f;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px dotted black;
+  margin-left: 0.5em;
+  font-size: 1em;
+  outline: none;
+}
+
+.wrapper {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.temp-wrapper {
+  text-align: center;
+  position: relative;
+}
+
+.temp {
+  font-size: 64px;
+}
+
+.temp-symbol {
+  position: absolute;
+  top: 13px;
+  margin-left: 4px;
+}
+
+.errorMessage {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+.errorMessage a {
+  color: #fff;
+}
+
+.searchCityDialog nav button {
+  font-size: 16px;
+}
+
+.searchCityDialog section {
+  overflow-y: visible;
+}
+
+
+.weatherBGColor-RAIN {
+  background-color: #537cd7 !important;
+}
+.weatherBGColor-CLEAR_DAY {
+  background-color: #f77f00 !important;
+}
+.weatherBGColor-CLEAR_NIGHT {
+  background-color: #5f7d8c !important;
+}
+.weatherBGColor-CLOUDY_DAY {
+  background-color: #8fa4af !important;
+}
+.weatherBGColor-CLOUDY_NIGHT {
+  background-color: #7dcbc4 !important;
+}
+.weatherBGColor-CLOUDY_SLEET {
+  background-color: #537cd7 !important;
+}
+.weatherBGColor-CLOUDY_SNOW {
+  background-color: #b048c1 !important;
+}
+.weatherBGColor-CLOUDY_WIND {
+  background-color: #84dbb9 !important;
+}
+.weatherBGColor-CLOUDY_FOG {
+  background-color: #cfd8dc !important;
+}
+.weatherBGColor-PARTLY_CLOUDY_DAY {
+  background-color: #ecd428 !important;
+}
